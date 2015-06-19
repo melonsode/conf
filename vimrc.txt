@@ -1,0 +1,5 @@
+syntax on
+au BufReadPost,BufNewFile *.t,*.cgi :setl filetype=perl
+set number
+set autoindent
+set tabstop=4
